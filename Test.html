@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautifulSoup Test Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the BeautifulSoup Test Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1" class="nav-link">Section 1</a></li>
+                <li><a href="#section2" class="nav-link">Section 2</a></li>
+                <li><a href="#section3" class="nav-link">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1" class="content-section">
+        <h2>Section 1: Basic Tags</h2>
+        <p>This section contains basic HTML tags.</p>
+        <a href="https://example.com" class="external-link">External Link</a>
+    </section>
+
+    <section id="section2" class="content-section">
+        <h2>Section 2: Siblings and Parents</h2>
+        <div class="container">
+            <p class="sibling1">This is the first sibling paragraph.</p>
+            <p class="sibling2">This is the second sibling paragraph with <a href="#" class="internal-link">an internal link</a>.</p>
+        </div>
+    </section>
+
+    <section id="section3" class="content-section">
+        <h2>Section 3: Attributes and Text</h2>
+        <p title="Hover Text">This paragraph has a title attribute.</p>
+        <a href="http://example.com" class="another-external-link">Another External Link</a>
+    </section>
+
+    <footer>
+        <p>Footer Content</p>
+    </footer>
+</body>
+</html>
